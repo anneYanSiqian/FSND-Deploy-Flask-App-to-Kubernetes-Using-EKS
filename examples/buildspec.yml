@@ -1,0 +1,3 @@
+env:
+    parameter-store:         
+      JWT_SECRET: "Tr9zWgj006pQAFgO3Qbv5hbejmc8ACaP6A33U5hK"

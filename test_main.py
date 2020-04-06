@@ -7,10 +7,12 @@ import pytest
 
 import main
 
-SECRET = 'TestSecret'
-TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjEzMDY3OTAsIm5iZiI6MTU2MDA5NzE5MCwiZW1haWwiOiJ3b2xmQHRoZWRvb3IuY29tIn0.IpM4VMnqIgOoQeJxUbLT-cRcAjK41jronkVrqRLFmmk'
-EMAIL = 'wolf@thedoor.com'
-PASSWORD = 'huff-puff'
+SECRET = 'Tr9zWgj006pQAFgO3Qbv5hbejmc8ACaP6A33U5hK'
+TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODczNzYyNDIsIm5iZiI6MTU4NjE2NjY0MiwiZW1haWwiOiJhbm5lLnNxLnlhbkBnbWFpbC5jb20ifQ.XCu4CmGpTNSmCgbtbhyZ_Km413tp4MC19ChqlXh-ub0'
+EMAIL = 'anne.sq.yan@gmail.com'
+PASSWORD = 'YSQ628qiansiyan'
+
+assert False 
 
 @pytest.fixture
 def client():
