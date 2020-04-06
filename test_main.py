@@ -13,6 +13,7 @@ EMAIL = 'anne.sq.yan@gmail.com'
 PASSWORD = 'YSQ628qiansiyan'
 
 assert False 
+assert True 
 
 @pytest.fixture
 def client():
