@@ -1,5 +1,5 @@
 '''
-Tests for jwt flask app.
+Tests for jwt flask app2.
 '''
 import os
 import json
