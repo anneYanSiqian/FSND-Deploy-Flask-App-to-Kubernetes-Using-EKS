@@ -1,10 +1,10 @@
-FROM python:3.7.6
+FROM python:stretch
 
 COPY . /main
 WORKDIR main
 
-RUN pip3 install --upgrade pip3
-RUN pip3 install -r requirements.txt
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
 
-ENTRYPOINT ["python3", "main.py"]
+ENTRYPOINT ["python", "main.py"]
