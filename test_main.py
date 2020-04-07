@@ -12,6 +12,7 @@ TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODczNzYyNDIsIm5iZiI6MT
 EMAIL = 'anne.sq.yan@gmail.com'
 PASSWORD = 'YSQ628qiansiyan'
 
+
 @pytest.fixture
 def client():
     os.environ['JWT_SECRET'] = SECRET
