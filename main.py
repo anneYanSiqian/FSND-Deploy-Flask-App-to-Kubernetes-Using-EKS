@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 """
-A simple app to create a JWT token.
+A simple app to create a JWT token1.
 """
 import os
 import logging
